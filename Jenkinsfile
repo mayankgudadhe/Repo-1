@@ -9,7 +9,7 @@ pipeline {
         stage ("Master") {
             steps {
                 sh "rm -rf *"
-                sh 'yum install git -y'
+                //sh 'yum install git -y'
             }
         }
         stage ("Slave-1") {
